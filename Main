@@ -1,0 +1,9 @@
+public class main {
+    public static void main(String[] args) {
+        Car car = new Car("CAR-01", "Civic", 2024, 5);
+        Truck truck = new Truck("TRK-01", "Howo", 2023, 15.5);
+        System.out.println("=====HỒ SƠ PHƯƠNG TIỆN VẬN TẢI RIKKEI=====");
+        car.displayInfo();
+        truck.displayInfo();
+    }
+}
