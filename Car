@@ -1,0 +1,14 @@
+public class Car extends Vehicle {
+    private int numSeat;
+
+    public Car(String id, String brand, int year, int numSeat) {
+        super(id, brand, year);
+        this.numSeat = numSeat;
+    }
+
+    @Override
+    public void displayInfo(){
+        super.displayInfo();
+        System.out.println("Số chỗ ngồi: " +numSeat);
+    }
+}
