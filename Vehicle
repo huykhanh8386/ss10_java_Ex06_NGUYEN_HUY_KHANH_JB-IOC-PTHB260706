@@ -1,0 +1,13 @@
+public class Vehicle {
+    private String id;
+    private String brand;
+    private int year;
+    public Vehicle(String id, String brand, int year){
+        this.id=id;
+        this.brand=brand;
+        this.year=year;
+    }
+    public void displayInfo(){
+        System.out.println("Mã " + id +"hãng "+brand+"năm "+year);
+    }
+}
